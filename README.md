@@ -9,4 +9,4 @@ Trabajo Fin de Grado - Modelos para la detección de tráfico anómalo en redes 
       * Desarrollar la red neuronal (`NNForNetworkTraffic.py`).
   * `resultados` -> contiene el fichero `resultados.ods` con los datos obtenidos tras probar la red neuronal.
   
-Además, en el apartado `release` se incluyen las capturas de tráfico y los ficheros de texto utilizados para llegar a los resultados anteriores.
+Además, en el apartado `releases` se incluyen las capturas de tráfico y los ficheros de texto utilizados para llegar a los resultados anteriores.
