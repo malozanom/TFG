@@ -2,12 +2,12 @@
 
 ###############################################################################
 # Script de shell que se encarga de extraer en la captura [inputFile.pcap] los
-# bytes de los paquetes indicados en [filterByRangePackets]. La extracción se
+# bytes de los paquetes indicados en [filterByPacketsRange]. La extracción se
 # lleva al fichero de texto [outputFile.txt].
 
 # ENTRADAS:
 # [inputFile.pcap] => captura donde se encuentran los paquetes.
-# [filterByRangePackets] => rango de paquetes en el cual queremos extraer los
+# [filterByPacketsRange] => rango de paquetes en el cual queremos extraer los
 #							bytes.
 
 # SALIDAS:
@@ -26,7 +26,7 @@
 ###############################################################################
 
 if [ ! $# -eq 3 ] ; then
-	echo "usage: $0 [inputFile.pcap] [filterByRangePackets] [outputFile.txt]"
+	echo "usage: $0 [inputFile.pcap] [filterByPacketsRange] [outputFile.txt]"
 	exit 1
 fi
 
