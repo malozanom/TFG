@@ -3,8 +3,8 @@
 ###############################################################################
 # Programa auxiliar con la función createDataset() que realmente se encarga de
 # juntar el tráfico de las capturas guardadas como ficheros .txt. para
-# generar el training, validation y test set del dataset final que se va a
-# inyectar en la red neuronal.
+# generar el training, validation y test set del dataset final en un formato
+# que sea interpretable para la red neuronal.
 #
 # Por tanto, se importa desde el fichero NNForNetworkTraffic.py para utilizar
 # la función createDataset().
